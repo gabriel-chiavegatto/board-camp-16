@@ -28,7 +28,7 @@ async function gameList(req, res) {
             `);
         // }
 
-        res.status(200).send(games)
+        res.status(200).send(games.rows)
 
     } catch (error) {
         console.log(error);
